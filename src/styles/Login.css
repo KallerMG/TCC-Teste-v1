@@ -1,0 +1,26 @@
+.divlogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70ch;
+}
+
+.formlogin {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  width: 430px;
+  height: 51%;
+  flex-direction: column;
+  background-color: rgba(55, 225, 247, 0.616);
+  border-radius: 62px;
+  justify-content: center;
+  -webkit-box-shadow: 2px 0px 38px 3px rgba(55, 169, 250, 0.82);
+  -moz-box-shadow: 2px 0px 38px 3px rgba(55, 169, 250, 0.82);
+  box-shadow: 2px 0px 38px 3px rgba(55, 169, 250, 0.82);
+}
+
+.divLoginInputs {
+  margin-top: 20px;
+  background-color: white;
+}
