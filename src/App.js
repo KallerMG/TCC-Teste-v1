@@ -3,6 +3,7 @@ import "./App.css";
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
+import Pacient from "./routes/Pacient";
 import Pacients from "./routes/Pacients";
 import Login from "./routes/Login";
 import Dashboard from "./routes/Dashboard";
@@ -29,6 +30,9 @@ function App() {
           {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
           <Switch>
+            <Route path="/pacient">
+              <Pacient />
+            </Route>
             <Route path="/pascients">
               <Pacients />
             </Route>
